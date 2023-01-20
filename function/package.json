@@ -1,0 +1,20 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bench1": "node bench1.js",
+    "bench2": "node bench2.js",
+    "bench3": "node bench3.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bench": "^0.3.6",
+    "benchmark": "^2.1.4",
+    "benny": "^3.7.1"
+  },
+  "dependencies": {
+    "@opentelemetry/sdk-trace-node": "^1.9.0"
+  }
+}
