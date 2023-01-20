@@ -1,4 +1,4 @@
-### Obvious result but we have something to play
+### how to run
 
 ```
 npm install
