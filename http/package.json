@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bench1": "ts-node-esm server1.ts",
+    "bench2": "ts-node-esm server2.ts",
+    "loadtest": "ts-node-esm autocannon.ts"
+  },
+  "author": "Purva",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.4.0",
+    "@opentelemetry/instrumentation": "^0.35.0",
+    "@opentelemetry/instrumentation-express": "^0.32.0",
+    "@opentelemetry/instrumentation-http": "^0.35.0",
+    "@opentelemetry/sdk-trace-node": "^1.9.0",
+    "autocannon": "^7.10.0",
+    "autocannon-compare": "^0.4.0",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  }
+}
