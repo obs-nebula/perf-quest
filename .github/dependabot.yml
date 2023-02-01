@@ -4,7 +4,24 @@ updates:
     directory: "/function"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "@types/benchmark"
+      - dependency-name: "@types/node"
+      - dependency-name: "@typescript-eslint/eslint-plugin"
+      - dependency-name: "@typescript-eslint/parser"
+      - dependency-name: "bench"
+      - dependency-name: "benchmark"
+      - dependency-name: "benny"
+      - dependency-name: "eslint"
+      - dependency-name: "typescript"
   - package-ecosystem: "npm"
     directory: "/http"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "express"
+      - dependency-name: "@types/autocannon"
+      - dependency-name: "@types/express"
+      - dependency-name: "@types/node"
+      - dependency-name: "autocannon"
+      - dependency-name: "typescript"
