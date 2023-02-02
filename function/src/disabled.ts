@@ -1,5 +1,5 @@
 function doWork() {
-  for (let i = 0; i <= Math.floor(Math.random() * 40000000); i += 1) {
+  for (let i = 0; i <= ~~(Math.random() * 4e7); i += 1) {
     // 
   }
 }

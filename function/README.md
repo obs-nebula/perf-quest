@@ -14,25 +14,25 @@ Scores: (bigger is better)
 
 DISABLED
 Raw:
- > 1.9588638589618022
- > 1.8198362147406733
- > 1.8018018018018018
- > 1.9011406844106464
-Average (mean) 1.8704106399787308
+ > 1.238390092879257
+ > 1.2406947890818858
+ > 1.091703056768559
+ > 1.2399256044637321
+Average (mean) 1.2026783857983585
 
 ENABLED
 Raw:
- > 1.2353304508956147
- > 1.2330456226880395
- > 1.1778563015312131
- > 1.07469102632993
-Average (mean) 1.1802308503611993
+ > 0.6993006993006993
+ > 0.6887052341597796
+ > 0.6711409395973155
+ > 0.6944444444444444
+Average (mean) 0.6883978293755597
 
 Winner: DISABLED
 Compared with next highest (ENABLED), it's:
-36.9% faster
-1.58 times as fast
-0.2 order(s) of magnitude faster
+42.76% faster
+1.75 times as fast
+0.24 order(s) of magnitude faster
 A LITTLE FASTER
 ```
 
@@ -53,10 +53,10 @@ npm run bench3
 Progress: 100%
 
   DISABLED:
-    1 928 ops/s, ±0.40%   | fastest
+    1 285 ops/s, ±2.78%   | fastest
 
   ENABLED:
-    1 162 ops/s, ±1.30%   | slowest, 39.73% slower
+    759 ops/s, ±2.23%     | slowest, 40.93% slower
 
 Finished 2 cases!
   Fastest: DISABLED

@@ -16,7 +16,7 @@ function doWork(parent: Span) {
   const ctx = opentelemetry.trace.setSpan(opentelemetry.context.active(), parent);
   const span = tracer.startSpan('doWork', undefined, ctx);
 
-  for (let i = 0; i <= Math.floor(Math.random() * 40000000); i += 1) {
+  for (let i = 0; i <= ~~(Math.random() * 4e7); i += 1) {
     //
   }
   span.setAttribute('key', 'value');
