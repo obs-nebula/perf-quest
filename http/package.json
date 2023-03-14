@@ -11,7 +11,7 @@
   "author": "Purva",
   "license": "MIT",
   "dependencies": {
-    "@opentelemetry/instrumentation": "^0.35.0",
+    "@opentelemetry/instrumentation": "^0.36.0",
     "@opentelemetry/instrumentation-express": "^0.32.0",
     "@opentelemetry/instrumentation-http": "^0.35.0",
     "@opentelemetry/sdk-trace-node": "^1.9.0",
