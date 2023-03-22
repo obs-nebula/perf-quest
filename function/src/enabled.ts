@@ -6,7 +6,8 @@ import { BasicTracerProvider, ConsoleSpanExporter, SimpleSpanProcessor } from '@
 const provider = new BasicTracerProvider();
 provider.addSpanProcessor(new SimpleSpanProcessor(new ConsoleSpanExporter()));
 provider.register();
-const tracer = opentelemetry.trace.getTracer('foo');
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const tracer = opentelemetry.trace.getTracer(process.env.npm_package_name!, process.env.npm_package_version);
 
 const parentSpan = tracer.startSpan('main');
 
