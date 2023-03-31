@@ -11,17 +11,17 @@
   "author": "Purva",
   "license": "MIT",
   "dependencies": {
-    "@opentelemetry/instrumentation": "^0.36.1",
-    "@opentelemetry/instrumentation-express": "^0.32.0",
-    "@opentelemetry/instrumentation-http": "^0.36.1",
-    "@opentelemetry/sdk-trace-node": "^1.10.1",
+    "@opentelemetry/instrumentation": "^0.37.0",
+    "@opentelemetry/instrumentation-express": "^0.32.1",
+    "@opentelemetry/instrumentation-http": "^0.37.0",
+    "@opentelemetry/sdk-trace-node": "^1.11.0",
     "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/autocannon": "^7.9.0",
-    "@types/express": "^4.17.16",
-    "@types/node": "^18.11.18",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
     "autocannon": "^7.10.0",
-    "typescript": "^4.9.4"
+    "typescript": "^5.0.3"
   }
 }
