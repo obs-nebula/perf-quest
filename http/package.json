@@ -4,7 +4,9 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "compile": "tsc --build tsconfig.json",
+    "clean": "rm -Rf dist",
     "start": "node dist/server.js",
     "start:tracing": "NODE_OPTIONS='--require ./dist/tracing.js' node dist/server.js > out.log"
   },
@@ -22,6 +24,13 @@
     "@types/express": "^4.17.17",
     "@types/node": "^18.15.11",
     "autocannon": "^7.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "eslint": "^8.37.0",
     "typescript": "^5.0.3"
   }
 }

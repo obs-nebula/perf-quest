@@ -2,14 +2,14 @@
 
 > OTEL-JS packages in use:
 
-| Package | Why |
+| Package |  |
 | ----------- | ----------- |
 | @opentelemetry/sdk-trace-base | For manual instrumentation  |
 | @opentelemetry/api | To get the trace instance and control span creation |
 
 ```
 npm install
-npm run build
+npm run compile
 ```
 
 ```
@@ -21,25 +21,25 @@ Scores: (bigger is better)
 
 DISABLED
 Raw:
- > 1.8099547511312217
- > 1.1627906976744187
- > 1.3245033112582782
- > 1.2254901960784315
-Average (mean) 1.3806847390355876
+ > 2.050580997949419
+ > 1.9697964543663822
+ > 1.2135922330097086
+ > 1.224739742804654
+Average (mean) 1.614677357032541
 
 ENABLED
 Raw:
- > 1.2322858903265557
- > 0.7490636704119851
- > 0.7326007326007326
- > 0.6489292667099286
-Average (mean) 0.8407198900123005
+ > 1.243781094527363
+ > 0.7352941176470589
+ > 0.7168458781362007
+ > 0.7215007215007215
+Average (mean) 0.8543554529528361
 
 Winner: DISABLED
 Compared with next highest (ENABLED), it's:
-39.11% faster
-1.64 times as fast
-0.22 order(s) of magnitude faster
+47.09% faster
+1.89 times as fast
+0.28 order(s) of magnitude faster
 A LITTLE FASTER
 ```
 
@@ -51,12 +51,8 @@ npm run bench2
 Progress: 100%
 
   DISABLED:
-    1 587 ops/s, ±4.97%   | fastest
+    2 067 ops/s, ±0.52%   | fastest
 
   ENABLED:
-    624 ops/s, ±1.26%     | slowest, 60.68% slower
-
-Finished 2 cases!
-  Fastest: DISABLED
-  Slowest: ENABLED
+    1 101 ops/s, ±4.18%   | slowest, 46.73% slower
 ```

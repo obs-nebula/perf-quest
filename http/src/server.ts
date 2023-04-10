@@ -8,5 +8,5 @@ app.get('/', (_: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  process.stdout.write(`Example app listening on port ${port}\n`);
 });

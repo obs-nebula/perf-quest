@@ -3,12 +3,12 @@ import { callDoWorkEnabled } from './enabled';
 import bench from 'bench';
 
 exports.compare = {
-  'DISABLED': function () {
+  DISABLED: function () {
     callDoWorkDisabled();
   },
-  'ENABLED': function () {
+  ENABLED: function () {
     callDoWorkEnabled();
-  }
+  },
 };
 
 bench.runMain();

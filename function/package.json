@@ -4,15 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
     "bench1": "node dist/bench1.js",
-    "bench2": "node dist/bench2.js"
+    "bench2": "node dist/bench2.js",
+    "lint": "eslint . --ext .ts",
+    "compile": "tsc --build tsconfig.json",
+    "clean": "rm -Rf dist"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
     "bench": "^0.3.6",
     "benny": "^3.7.1",
     "eslint": "^8.37.0",

@@ -2,6 +2,7 @@ import b from 'benny';
 
 import { callDoWorkDisabled } from './disabled';
 import { callDoWorkEnabled } from './enabled';
+import { error } from 'console';
 
 b.suite(
   'Foo',
@@ -13,4 +14,4 @@ b.suite(
   }),
   b.cycle(),
   b.complete()
-);
+).catch(error);

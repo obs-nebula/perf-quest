@@ -1,6 +1,6 @@
 function doWork() {
   for (let i = 0; i <= ~~(Math.random() * 4e7); i += 1) {
-    // 
+    //
   }
 }
 

@@ -2,7 +2,7 @@
 
 > OTEL-JS packages in use:
 
-| Package | Why |
+| Package | |
 | ----------- | ----------- |
 | @opentelemetry/instrumentation-express | Express auto-instrumentation plugin |
 | @opentelemetry/instrumentation-http | Required to be used with `@opentelemetry/instrumentation-express` |
