@@ -1,11 +1,11 @@
-### how to run
-
 > OTEL-JS packages in use:
 
 | Package |  |
 | ----------- | ----------- |
 | @opentelemetry/sdk-trace-base | For manual instrumentation  |
 | @opentelemetry/api | To get the trace instance and control span creation |
+
+### how to run
 
 ```
 npm install
