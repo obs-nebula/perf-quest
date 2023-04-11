@@ -1,5 +1,3 @@
-### How to run
-
 > OTEL-JS packages in use:
 
 | Package | |
@@ -11,6 +9,7 @@
 | @opentelemetry/semantic-conventions | To be used with `resources` to identify the application/service's name |
 | @opentelemetry/instrumentation | To register the auto-instrumentation plugins and the trace provider |
 
+### How to run
 
 ```console
 npm i
