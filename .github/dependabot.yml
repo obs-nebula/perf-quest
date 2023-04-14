@@ -12,7 +12,6 @@ updates:
       - dependency-name: "benny"
       - dependency-name: "eslint"
       - dependency-name: "typescript"
-      - dependency-name: "eslint"
   - package-ecosystem: "npm"
     directory: "/http"
     schedule:
