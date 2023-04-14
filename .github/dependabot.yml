@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/function"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     ignore:
       - dependency-name: "@types/node"
       - dependency-name: "@typescript-eslint/eslint-plugin"
@@ -16,7 +16,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/http"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     ignore:
       - dependency-name: "express"
       - dependency-name: "@types/autocannon"
