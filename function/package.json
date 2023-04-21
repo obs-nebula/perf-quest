@@ -7,7 +7,7 @@
     "bench1": "node dist/bench1.js",
     "bench2": "node dist/bench2.js",
     "lint": "eslint . --ext .ts",
-    "compile": "tsc --build tsconfig.json",
+    "build": "tsc --build tsconfig.json",
     "clean": "rm -Rf dist"
   },
   "license": "MIT",

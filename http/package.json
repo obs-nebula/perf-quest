@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "compile": "tsc --build tsconfig.json",
+    "build": "tsc --build tsconfig.json",
     "clean": "rm -Rf dist",
     "start": "node dist/server.js",
     "start:tracing": "NODE_OPTIONS='--require ./dist/tracing.js' node dist/server.js > out.log"

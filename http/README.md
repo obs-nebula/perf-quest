@@ -12,7 +12,7 @@
 ### How to run
 
 ```console
-npm i
+npm install
 npm run build
 npm i autocannon -g
 ```
