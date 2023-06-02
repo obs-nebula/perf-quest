@@ -3,7 +3,6 @@
 | Package |  |
 | ----------- | ----------- |
 | @opentelemetry/sdk-trace-base | For manual instrumentation  |
-| @opentelemetry/api | To get the trace instance and control span creation |
 
 ### how to run
 
@@ -17,29 +16,27 @@ npm run bench1
 ```
 
 ```console
-Scores: (bigger is better)
-
 DISABLED
 Raw:
- > 2.050580997949419
- > 1.9697964543663822
- > 1.2135922330097086
- > 1.224739742804654
-Average (mean) 1.614677357032541
+ > 2.070393374741201
+ > 2.028397565922921
+ > 2.0366598778004072
+ > 2.0229265003371544
+Average (mean) 2.039594329700421
 
 ENABLED
 Raw:
- > 1.243781094527363
- > 0.7352941176470589
- > 0.7168458781362007
- > 0.7215007215007215
-Average (mean) 0.8543554529528361
+ > 1.2004801920768307
+ > 1.2026458208057726
+ > 1.156737998843262
+ > 1.214329083181542
+Average (mean) 1.193548273726852
 
 Winner: DISABLED
 Compared with next highest (ENABLED), it's:
-47.09% faster
-1.89 times as fast
-0.28 order(s) of magnitude faster
+41.48% faster
+1.71 times as fast
+0.23 order(s) of magnitude faster
 A LITTLE FASTER
 ```
 
@@ -51,8 +48,8 @@ npm run bench2
 Progress: 100%
 
   DISABLED:
-    2 067 ops/s, ±0.52%   | fastest
+    2 057 ops/s, ±0.40%   | fastest
 
   ENABLED:
-    1 101 ops/s, ±4.18%   | slowest, 46.73% slower
+    1 201 ops/s, ±2.15%   | slowest, 41.61% slower
 ```
