@@ -12,6 +12,8 @@ updates:
       - dependency-name: "benny"
       - dependency-name: "eslint"
       - dependency-name: "typescript"
+      - dependency-name: "eslint-config-prettier"
+      - dependency-name: "prettier"
   - package-ecosystem: "npm"
     directory: "/http"
     schedule:
@@ -24,3 +26,5 @@ updates:
       - dependency-name: "autocannon"
       - dependency-name: "typescript"
       - dependency-name: "eslint"
+      - dependency-name: "eslint-config-prettier"
+      - dependency-name: "prettier"
