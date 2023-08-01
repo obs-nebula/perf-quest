@@ -18,7 +18,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.7",
+    "prettier": "^3.0.0",
     "bench": "^0.3.6",
     "benny": "^3.7.1",
     "eslint": "^8.37.0",
