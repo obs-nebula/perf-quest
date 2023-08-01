@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "@opentelemetry/instrumentation": "^0.40.0",
-    "@opentelemetry/instrumentation-express": "^0.32.4",
+    "@opentelemetry/instrumentation-express": "^0.33.0",
     "@opentelemetry/instrumentation-http": "^0.40.0",
     "@opentelemetry/sdk-trace-node": "^1.14.0",
     "express": "^4.18.2"
